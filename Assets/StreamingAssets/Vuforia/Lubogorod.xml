@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="img_50" size="1.000000 1.172414" />
+    <ImageTarget name="img_49" size="1.000000 1.182609" />
+    <ImageTarget name="img_48" size="1.000000 1.163636" />
+    <ImageTarget name="img_47" size="1.000000 1.182609" />
+    <ImageTarget name="img_46" size="1.000000 1.172414" />
+    <ImageTarget name="img_45" size="1.000000 1.172414" />
+    <ImageTarget name="img_44" size="1.000000 1.172414" />
+    <ImageTarget name="img_43" size="1.000000 1.182609" />
+    <ImageTarget name="img_42" size="1.000000 1.198913" />
+    <ImageTarget name="img_41" size="1.000000 1.198913" />
+    <ImageTarget name="img_40" size="1.000000 1.188578" />
+    <ImageTarget name="img_39" size="1.000000 1.188578" />
+    <ImageTarget name="img_38" size="1.000000 1.188578" />
+    <ImageTarget name="img_37" size="1.000000 1.188578" />
+    <ImageTarget name="img_36" size="1.000000 1.172414" />
+    <ImageTarget name="img_35" size="1.000000 1.182609" />
+    <ImageTarget name="img_34" size="1.000000 1.163636" />
+    <ImageTarget name="img_33" size="1.000000 1.182609" />
+    <ImageTarget name="img_32" size="1.000000 1.172414" />
+    <ImageTarget name="img_31" size="1.000000 1.172414" />
+    <ImageTarget name="img_30" size="1.000000 1.188578" />
+    <ImageTarget name="img_29" size="1.000000 1.188578" />
+    <ImageTarget name="img_28" size="1.000000 1.198913" />
+    <ImageTarget name="img_27" size="1.000000 1.188578" />
+    <ImageTarget name="img_26" size="1.000000 1.188578" />
+    <ImageTarget name="img_25" size="1.000000 1.171336" />
+    <ImageTarget name="img_24" size="1.000000 1.181522" />
+    <ImageTarget name="img_23" size="1.000000 1.162567" />
+    <ImageTarget name="img_22" size="1.000000 1.181522" />
+    <ImageTarget name="img_21" size="1.000000 1.171336" />
+    <ImageTarget name="img_20" size="1.000000 1.171336" />
+    <ImageTarget name="img_19" size="1.000000 1.181522" />
+    <ImageTarget name="img_18" size="1.000000 1.188578" />
+    <ImageTarget name="img_17" size="1.000000 1.188578" />
+    <ImageTarget name="img_16" size="1.000000 1.198913" />
+    <ImageTarget name="img_15" size="1.000000 1.188578" />
+    <ImageTarget name="img_14" size="1.000000 1.188578" />
+    <ImageTarget name="img_13" size="1.000000 1.188578" />
+    <ImageTarget name="img_12" size="1.000000 1.182609" />
+    <ImageTarget name="img_11" size="1.000000 1.163636" />
+    <ImageTarget name="img_10" size="1.000000 1.182609" />
+    <ImageTarget name="img_09" size="1.000000 1.172414" />
+    <ImageTarget name="img_08" size="1.000000 1.172414" />
+    <ImageTarget name="img_07" size="1.000000 1.182609" />
+    <ImageTarget name="img_06" size="1.000000 1.240302" />
+    <ImageTarget name="img_05" size="1.000000 1.251087" />
+    <ImageTarget name="img_04" size="1.000000 1.251087" />
+    <ImageTarget name="img_03" size="1.000000 1.240302" />
+    <ImageTarget name="img_02" size="1.000000 1.251087" />
+    <ImageTarget name="img_01" size="1.000000 1.240302" />
+  </Tracking>
+</QCARConfig>
