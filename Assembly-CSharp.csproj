@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_Assets\Scripts\buttonScript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\ChangeBackScript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\ChangeCloseScript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\ChangeForScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PlanePressScript.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
@@ -78,6 +81,8 @@
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\Lubogorod.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\_Assets\Fonts\Ubuntu\UFL.txt" />
+     <None Include="Assets\_Assets\Fonts\Rubik\OFL.txt" />
      <None Include="Assets\Resources\text\pro_3.txt" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
      <None Include="Assets\Resources\text\pro_5.txt" />

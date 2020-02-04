@@ -16,6 +16,7 @@ public class PanelScript : MonoBehaviour
     public GameObject panel;
     public GameObject img;
     public GameObject text; 
+    public Animator anime;
 
     public void closePanel()
     {
@@ -50,9 +51,13 @@ public class PanelScript : MonoBehaviour
         if (!panel.activeSelf)
             panel.SetActive(true);
 
-        img.GetComponent<Image>().sprite = Resources.Load<Sprite>("gif/face_" + id);
+        //img.GetComponent<Image>().sprite = Resources.Load<Sprite>("gif/face_" + id);
+        anime.SetInteger("state", id);
         prof= Resources.Load<TextAsset>("text/pro_" + id).ToString();
         text.GetComponent<Text>().text = prof;
 
     }
+
+
+   
 }

@@ -7,6 +7,6 @@ public class buttonScript : MonoBehaviour
 
     public void close()
     {
-        Debug.Log("close");
+        //Debug.Log("close");
     }
 }
