@@ -17,7 +17,7 @@ public class ChangeForScript : MonoBehaviour
     void OnMouseUp()
     {
         print("up");
-        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/forward");
+        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/forward(active)_2");
         //GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/"+sprite);
     }
 

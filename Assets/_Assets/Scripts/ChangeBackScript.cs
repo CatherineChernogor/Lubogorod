@@ -17,7 +17,7 @@ public class ChangeBackScript : MonoBehaviour
     void OnMouseUp()
     {
         print("up");
-        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/backward");
+        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/backward(active)_2");
         //GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/"+sprite);
     }
 

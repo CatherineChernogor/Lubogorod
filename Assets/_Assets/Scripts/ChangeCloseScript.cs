@@ -17,7 +17,7 @@ public class ChangeCloseScript : MonoBehaviour
     void OnMouseUp()
     {
         print("up");
-        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/close");
+        GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/close(active)_2");
         //GetComponent<Image>().sprite = Resources.Load<Sprite>("arrows/"+sprite);
     }
 
