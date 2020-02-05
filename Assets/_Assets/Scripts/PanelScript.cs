@@ -17,11 +17,13 @@ public class PanelScript : MonoBehaviour
     public GameObject img;
     public GameObject text; 
     public Animator anime;
+    public GameObject menu_btn;
 
     public void closePanel()
     {
         print("close");
         panel.SetActive(false);
+        menu_btn.SetActive(true);
         id = 0;
     }
     public void goBackward()
