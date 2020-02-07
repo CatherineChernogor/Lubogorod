@@ -6,11 +6,11 @@ public class ShowPanelSCript : MonoBehaviour
 {
     public int id;
     public PanelScript panelScript;
-    public GameObject menu_btn;
+   // public GameObject menu_btn;
     public void showPan()
     {
         panelScript.openPanel(id);
-        menu_btn.SetActive(false);
+       
     }
 
 }

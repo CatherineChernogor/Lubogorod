@@ -53,10 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Assets\Scripts\buttonScript.cs" />
-     <Compile Include="Assets\_Assets\Scripts\ChangeBackScript.cs" />
-     <Compile Include="Assets\_Assets\Scripts\ChangeCloseScript.cs" />
-     <Compile Include="Assets\_Assets\Scripts\ChangeForScript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\CameraFocusScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PlanePressScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\ShowPanelSCript.cs" />
@@ -70,7 +67,7 @@
      <None Include="Assets\Resources\text\pro_8.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\Demon.xml" />
      <None Include="Assets\Resources\text\pro_2.txt" />
-     <None Include="Assets\Resources\prof_list.txt" />
+     <None Include="Assets\_Assets\prof_list.txt" />
      <None Include="Assets\Resources\text\pro_6.txt" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />

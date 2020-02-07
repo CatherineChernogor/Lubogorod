@@ -57,6 +57,7 @@ public class PanelScript : MonoBehaviour
         anime.SetInteger("state", id);
         prof= Resources.Load<TextAsset>("text/pro_" + id).ToString();
         text.GetComponent<Text>().text = prof;
+        menu_btn.SetActive(false);
 
     }
 
