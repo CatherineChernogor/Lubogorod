@@ -18,12 +18,14 @@ public class PanelScript : MonoBehaviour
     public GameObject text; 
     public Animator anime;
     public GameObject menu_btn;
+    public GameObject focus;
 
     public void closePanel()
     {
         print("close");
         panel.SetActive(false);
         menu_btn.SetActive(true);
+        focus.SetActive(true);
         id = 0;
     }
     public void goBackward()
@@ -58,6 +60,7 @@ public class PanelScript : MonoBehaviour
         prof= Resources.Load<TextAsset>("text/pro_" + id).ToString();
         text.GetComponent<Text>().text = prof;
         menu_btn.SetActive(false);
+        focus.SetActive(false);
 
     }
 
