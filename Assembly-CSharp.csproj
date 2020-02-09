@@ -80,7 +80,6 @@
      <None Include="Assets\StreamingAssets\Vuforia\Lubogorod.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\_Assets\Fonts\Ubuntu\UFL.txt" />
-     <None Include="Assets\_Assets\Fonts\Rubik\OFL.txt" />
      <None Include="Assets\Resources\text\pro_3.txt" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
      <None Include="Assets\Resources\text\pro_5.txt" />
