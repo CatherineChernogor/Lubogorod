@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShowPanelSCript : MonoBehaviour
+public class ShowPanelScript : MonoBehaviour
 {
     public int id;
     public PanelScript panelScript;

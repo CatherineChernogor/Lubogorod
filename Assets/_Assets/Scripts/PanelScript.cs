@@ -5,65 +5,94 @@ using UnityEngine.UI;
 
 public class PanelScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public static int id;
+    public static bool isPanel;
+
+    private string prof;
+    private const int LOW = 1;
+    private const int HIGH = 8;
+
+
+
+    private GameObject panel;
+    private GameObject text;
+    private Animator anime;
+
+    private GameObject menu_btn;
+    private GameObject focus;
+    private GameObject shadow;
+
     void Start()
     {
         id = 0;
-    }
-    public static int id;
-    private const int low = 1;
-    private const int high = 8;
-    public GameObject panel;
-    public GameObject img;
-    public GameObject text; 
-    public Animator anime;
-    public GameObject menu_btn;
-    public GameObject focus;
 
+        //Find all child obj and store to that array
+        foreach (Transform child in transform)
+        {
+            if (child.name == "Shadow")
+                shadow = child.gameObject;
+
+            if (child.name == "CameraFocus")
+                focus = child.gameObject;
+
+            if (child.name == "Button")
+                menu_btn = child.gameObject;
+        }
+    }
+
+    void Update()
+    {
+        panel = SwitchScript.plane;
+
+        foreach (Transform child in panel.transform)
+        {
+            if (child.name == "ImageWrapper")
+            {
+                Transform img = child.GetChild(0);
+                anime = img.gameObject.GetComponent<Animator>();
+            }
+
+            else if (child.name == "TextWrapper")
+                text = child.GetChild(0).GetChild(0).GetChild(0).GetChild(0).gameObject;
+
+        }
+    }
     public void closePanel()
     {
         print("close");
         panel.SetActive(false);
+        shadow.SetActive(false);
         menu_btn.SetActive(true);
         focus.SetActive(true);
+
         id = 0;
+        isPanel = false;
     }
     public void goBackward()
     {
-        print("backward " + id + "->" + (id - 1));
         id--;
-        if (id < low)
-            id = high;
-
-        openPanel(id);
+        if (id < LOW)
+            id = HIGH;
     }
     public void goforward()
     {
-        print("forward " + id + "->" + (id + 1));
         id++;
-        if (id > high)
-            id = low;
-
-        openPanel(id);
+        if (id > HIGH)
+            id = LOW;
     }
-
-    string prof;
     public void openPanel(int loc_id)
     {
         id = loc_id;
-        print("open" + loc_id);
-        if (!panel.activeSelf)
-            panel.SetActive(true);
+        print("open_" + loc_id);
 
-        //img.GetComponent<Image>().sprite = Resources.Load<Sprite>("gif/face_" + id);
         anime.SetInteger("state", id);
-        prof= Resources.Load<TextAsset>("text/pro_" + id).ToString();
+        prof = Resources.Load<TextAsset>("text/pro_" + id).ToString();
         text.GetComponent<Text>().text = prof;
+
         menu_btn.SetActive(false);
         focus.SetActive(false);
-
+        shadow.SetActive(true);
+        isPanel = true;
     }
-
-
-   
 }

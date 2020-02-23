@@ -56,7 +56,8 @@
      <Compile Include="Assets\_Assets\Scripts\CameraFocusScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\_Assets\Scripts\PlanePressScript.cs" />
-     <Compile Include="Assets\_Assets\Scripts\ShowPanelSCript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\ShowPanelScript.cs" />
+     <Compile Include="Assets\_Assets\Scripts\SwitchScript.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
